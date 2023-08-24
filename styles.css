@@ -28,3 +28,9 @@ body {
   height: 140px;
 }
 
+@font-face {
+    font-family: 'Windows95Font';
+    src: url('PerfectDOSVGA437.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
