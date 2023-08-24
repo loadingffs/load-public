@@ -19,15 +19,19 @@ body {
 }
 
 .loading-text {
-    font-family: 'Windows95Font', sans-serif;
-    font-size: 16px;
-    color: #000;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 10px; /* adjust this for spacing between bar and text */
+  font-family: 'Windows95Font', sans-serif;
+  font-size: 16px;
+  color: #000;
 }
+
+
+.loading-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;  /* Adjust based on your preference */
+}
+
 
 .loading-bar {
   width: 0;
