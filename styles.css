@@ -15,6 +15,18 @@ body {
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 0px;
+  position: relative;
+}
+
+.loading-text {
+    font-family: 'Windows95Font', sans-serif;
+    font-size: 16px;
+    color: #000;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px; /* adjust this for spacing between bar and text */
 }
 
 .loading-bar {
